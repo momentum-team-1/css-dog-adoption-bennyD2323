@@ -21,40 +21,50 @@ h1 {
 .adopttext{
     padding: 0px 0px 0px 42px;
 }
-.dogpicbox{
-    display:flex;
-    flex-flow: row wrap;
-    /* flex-basis: 33%; */
-
-    list-style-type:none;
+.dogcontainer{
+    /* margin: 0px 190px 0px 190px; */
+    flex-wrap:wrap;
+    display: flex;
+    
+    justify-content:center;
+    align-content:center;
 }
-        .dogboxflex{
-            flex: 1 0 15%;
-            
+        .dogitem{
+            display:flex;
+            width:25%;
+            padding:10px;
             color: white;
+            flex-direction: column;
+            flex-basis: 25%;
         }
                     .dogpic{
-                        max-height: 200px;
-                        max-width: 230px;
+                        height: 50px;
+                        width: 75px;
                     }
                     
                     .dogfactsmainbox{
-                        display: flex;
-                        flex-flow: row wrap;
-                        list-style-type:none;
+                    justify-content:flex-start;
+                    padding-inline-start: 0px;
+                    display:flex;
+                    margin:0;
+                    flex-direction:row;
+                    flex-wrap: wrap;
+                    font-size:8px;   
                         
                     }
                     .dogfactsattribute{
                         background:blue;
+                        padding-left:2px;
+                        padding-right:2px;
                         
                     }
                     .dogname{
                         color:black;
-                        font family: "oswald";
+                        font-family: "oswald";
                     }
 .footerimage {
-    max-width:200px;
-    max-width:300px;
+    width:30%;
     margin:0px;
     padding:0px;
+    display:inline-block;
 }
