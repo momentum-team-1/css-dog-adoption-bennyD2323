@@ -22,7 +22,7 @@ h1 {
     padding: 0px 0px 0px 42px;
 }
 .dogcontainer{
-    /* margin: 0px 190px 0px 190px; */
+    align-items:flex-start;
     flex-wrap:wrap;
     display: flex;
     
@@ -31,15 +31,13 @@ h1 {
 }
         .dogitem{
             display:flex;
-            width:25%;
             padding:10px;
-            color: white;
             flex-direction: column;
             flex-basis: 25%;
         }
                     .dogpic{
-                        height: 50px;
-                        width: 75px;
+                        height: 175px;
+                        width: 225px;
                     }
                     
                     .dogfactsmainbox{
@@ -53,14 +51,18 @@ h1 {
                         
                     }
                     .dogfactsattribute{
-                        background:blue;
-                        padding-left:2px;
-                        padding-right:2px;
+                        background:#90DDF0;
+                        margin-left:2px;
+                        margin-right:2px;
+                        color:black;
+                        border-radius: 50%;
+                        
                         
                     }
                     .dogname{
                         color:black;
                         font-family: "oswald";
+                        font-size:12px;
                     }
 .footerimage {
     width:30%;
