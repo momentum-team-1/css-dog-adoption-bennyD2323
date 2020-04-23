@@ -2,7 +2,7 @@
 body {
     margin: 0px 190px 0px 190px;
     background-color:lightgray;
-    font-family: "Oswald";
+    font-family: "Open sans";
 }
 
 
@@ -11,35 +11,50 @@ section {
 }
 
 h1 {
-    background-color:blue;
-    font-size: 32px;
+    background-color:#083D77;
+    font-size: 24px;
     color:white;
     margin: 0px;
+    padding:25px 0px 25px 40px;
 }
 
-
+.adopttext{
+    padding: 0px 0px 0px 42px;
+}
 .dogpicbox{
     display:flex;
     flex-flow: row wrap;
-    flex-basis: 33%;
+    /* flex-basis: 33%; */
 
     list-style-type:none;
 }
-.dogboxflex{
-    background: red;
-    
-    
-    
-    margin-top: 10px;
-
-    color: white;
-    padding: 5px;
-}
-.dogpic{
-    max-height: 200px;
-    max-width: 200px;
-}
-
+        .dogboxflex{
+            flex: 1 0 15%;
+            
+            color: white;
+        }
+                    .dogpic{
+                        max-height: 200px;
+                        max-width: 230px;
+                    }
+                    
+                    .dogfactsmainbox{
+                        display: flex;
+                        flex-flow: row wrap;
+                        list-style-type:none;
+                        
+                    }
+                    .dogfactsattribute{
+                        background:blue;
+                        
+                    }
+                    .dogname{
+                        color:black;
+                        font family: "oswald";
+                    }
 .footerimage {
-    max-width:350px;
+    max-width:200px;
+    max-width:300px;
+    margin:0px;
+    padding:0px;
 }
