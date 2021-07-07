@@ -1,0 +1,95 @@
+
+body {
+    margin: 0px 180px 0px 180px;
+    background-color:lightgray;
+    font-family: "Open sans";
+}
+
+
+section {
+    background-color: white;
+}
+
+h1 {
+    background-color:#083D77;
+    font-size: 24px;
+    color:white;
+    margin: 0px;
+    padding:25px 0px 25px 39px;
+}
+
+.adopttext{
+    padding: 0px 0px 0px 39px;
+}
+.dogcontainer{
+    align-items:flex-start;
+    flex-wrap:wrap;
+    display: flex;
+    
+    justify-content:center;
+    align-content:center;
+}
+        .dogitem{
+            display:flex;
+            padding:10px;
+            padding-bottom:30px;
+            
+            flex-direction: column;
+            flex-basis: 29%;
+        }
+                    .dogpic{
+                        height:auto;
+                        width:100%;
+                    }
+                    
+                    .dogfactsmainbox{
+                    justify-content:flex-start;
+                    padding-inline-start: 0px;
+                    display:flex;
+                    margin:0;
+                    flex-direction:row;
+                    flex-wrap: wrap;
+                    font-size:10px;   
+                        
+                    }
+                    .dogfactsattribute{
+                        background:#90DDF0;
+                        margin-left:2px;
+                        margin-right:2px;
+                        color:black;
+                        border-radius: 50%;
+                        
+                        
+                    }
+                    .dogname{
+                        color:black;
+                        font-family: "oswald";
+                        font-size:14px;
+                        font-weight:bold;
+                    }
+
+/* .footbox{
+    
+} */
+
+
+footer{
+    display:flex;
+    justify-content: center;
+    
+    margin-bottom:25px;
+}
+
+.footerimage {
+    width:33%;
+    height:auto;
+    margin:0px;
+    padding:0px;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.footimgtext{
+    position: absolute;
+    
+}
